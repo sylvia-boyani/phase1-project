@@ -1,0 +1,46 @@
+.topnav {
+    overflow: hidden;
+}
+
+.topnav a {
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 18px 40px;
+    text-decoration: none;
+    font-size: 17px;
+
+
+}
+
+.topnav a:hover {
+    color: darkblue;
+
+}
+
+.topnav h1 {
+    margin: auto;
+    padding: 10px;
+    margin-right: 700px;
+    text-align: center;
+    color: black;
+}
+
+#all{
+    background-image: url(../assets/images/backg.jpeg);
+    /* background-position: center; */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.intro{
+    text-align: center;
+    margin-top: 300px;
+}
+.intro button{
+    padding: 20px;
+    border-radius: 20px;
+    color:whitesmoke;
+    font-weight: bold;
+    background-color: blue;
+}
