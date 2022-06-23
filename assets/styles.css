@@ -1,3 +1,7 @@
+*{
+  text-align: center;
+}
+
 .topnav {
     overflow: hidden;
 }
@@ -25,18 +29,20 @@
     text-align: center;
     color: black;
 }
-
+ 
 #all{
     background-image: url(../assets/images/backg.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
-    margin-left: 20px;
+    margin-left: 20px; 
+    
 }
 
 .intro{
     text-align: center;
     margin-top: 300px;
     font-style: italic;
+  
 }
 .intro button{
     padding: 20px;
@@ -50,9 +56,20 @@
     margin-left: 20px;
 }
 
-.events {
+#services{
+  background-image: url(../assets/images/worship3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 800px;
+  margin: 40px 0 0 0;
+  font-size: x-large;
+  color:whitesmoke
+}
+
+#events {
     box-sizing: border-box;
     margin-left: 20px;
+  
   }
   
   /* Float four columns side by side */
@@ -60,12 +77,16 @@
     float: left;
     width: 20%;
     padding: 20px 10px;
-    margin-left: 40px;
+    margin-top: 50px;
     
   }
   
   /* Remove extra left and right margins, due to padding */
-  .row {margin: 0 -5px;}
+  .row {
+      margin: 0 30px 200px 20px;
+      background-color: whitesmoke;
+      text-align: center;
+}
   
   /* Clear floats after the columns */
   .row:after {
@@ -74,19 +95,20 @@
     clear: both;
   }
   
-  /* Responsive columns 
-  @media screen and (max-width: 600px) {
-    .column {
-      width: 100%;
-      display: block;
-      margin-bottom: 20px;
-    }
-  }*/
-  
-  /* Style the counter cards */
+ 
   .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     padding: 16px;
     text-align: center;
     background-color: #f1f1f1;
   }
+
+  .row ul li{
+    list-style: none;
+    
+  }
+ .row a :hover{
+   color: red;
+ }
+
+ 
