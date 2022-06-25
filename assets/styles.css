@@ -8,7 +8,7 @@
 
 .topnav a {
     float: right;
-    color: #004eff;
+    color: black;
     text-align: center;
     padding: 18px 40px;
     text-decoration: none;
@@ -18,7 +18,7 @@
 }
 
 .topnav a:hover {
-    color: #f1f1f1;
+    color: #004eff;
 
 }
 
@@ -27,7 +27,9 @@
     padding: 10px;
     margin-right: 700px;
     text-align: center;
-    color: black;
+    color: #004eff;
+    font-weight: bolder;
+    font-size: 80px;
 }
  
 #all{
@@ -52,11 +54,12 @@
     border-radius: 20px;
     color:whitesmoke;
     font-weight: bold;
-    background-color: blue;
+    background-color: #004eff;
 }
 
 #about{
     margin-left: 20px;
+    padding: 100px;
     background-image: url(../assets/images/rocky\ history.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -73,7 +76,8 @@
   height: 800px;
   margin: 40px 0 200px 0;
   font-size: x-large;
-  color:whitesmoke
+  color:whitesmoke;
+  padding: 100px;
 }
 
 #events {
@@ -123,4 +127,59 @@
    color: red;
  }
 
- 
+ #donate{
+   background-image: url(../assets/images/donate.jpg);
+   height: 800px;
+   opacity: 0.9;
+   margin-bottom: 100px;
+ }
+ #donate h1{
+   font-size: 50px;
+   font-weight: bolder;
+   color: #004eff;
+   text-align: center;
+   justify-content: start;
+   padding: 100px;
+   
+ }
+
+ #donate button{
+    padding: 20px;
+    border-radius: 20px;
+    color:whitesmoke;
+    font-weight: bold;
+    background-color: #004eff;  
+ }
+
+ .footer ul li a{
+  /* float: right; */
+  align-items: center;
+  color: black;
+  text-align: center;
+  padding: 18px 40px;
+  text-decoration: none;
+  font-size: 14px;
+ }
+
+ .footer ul {
+   list-style: none;
+  overflow: hidden;
+
+ }
+ .footer ul li{
+   float: right;
+   margin-right: 300px;
+ }
+
+ .footer ul li a{
+   display: block;
+   text-align: center;
+   padding:  12px 16px;
+   font-size: larger;
+   
+ }
+  .footer ul li a:hover{
+    background-color: blue;
+  }
+
+  
