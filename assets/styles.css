@@ -8,17 +8,17 @@
 
 .topnav a {
     float: right;
-    color: black;
+    color: #004eff;
     text-align: center;
     padding: 18px 40px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 20px;
 
 
 }
 
 .topnav a:hover {
-    color: skyblue;
+    color: #f1f1f1;
 
 }
 
@@ -36,6 +36,7 @@
     background-repeat: no-repeat;
     height: 800px;
     margin-left: 20px; 
+    margin-bottom: 200px;
     
 }
 
@@ -43,6 +44,7 @@
     text-align: center;
     margin-top: 300px;
     font-style: italic;
+   
   
 }
 .intro button{
@@ -61,6 +63,7 @@
     height: 600px;
     color: whitesmoke;
     font-size: larger;
+    margin-bottom: 200px;
 }
 
 #services{
@@ -68,7 +71,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   height: 800px;
-  margin: 40px 0 0 0;
+  margin: 40px 0 200px 0;
   font-size: x-large;
   color:whitesmoke
 }
@@ -76,6 +79,8 @@
 #events {
     box-sizing: border-box;
     margin-left: 20px;
+    background-color: #004eff;
+    
   
   }
   
