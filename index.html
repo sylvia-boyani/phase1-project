@@ -24,7 +24,7 @@
     <h1>We Exist to Honor God And To Make Disciples<br>
       Knowing Christ Together
     </h1>
-    <button>Know the Word</button>
+    <button id="btn1">Know the Word</button>
     </p>
     <div class="books">
       <ul id="bibleBooks">
@@ -233,44 +233,28 @@
   </div>
   
   </div>
-  
-  <div class="col-lg-6 contact-right">
-    <form class="booking-form" id="myForm" action="donate.php">
-         <div class="row">
-           <div class="col-lg-12 d-flex flex-column">
-             <select name="type" class="app-select form-control" required>
-              <option data-display="Project you want to donate">Project you want to donate</option>
-              <option value="1">Donate type 1</option>
-              <option value="2">Donate type 2</option>
-              <option value="3">Donate type 3</option>
-            </select>
-           </div>
-           <div class="col-lg-6 d-flex flex-column">
-            <input name="fname" placeholder="Enter your name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" class="form-control mt-20" required="" type="text" required>
-          </div>
-          <div class="col-lg-6 d-flex flex-column">
-            <input name="email" placeholder="Enter email address" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" class="form-control mt-20" required="" type="email">
-          </div>
-          <div class="col-lg-12 d-flex flex-column">
-            <input name="amound" placeholder="Donation amount (USD)" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Donation amount (USD)'" class="form-control mt-20" required="" type="text">
-  
-            <textarea class="form-control mt-20" name="message" placeholder="Messege" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Messege'" required=""></textarea>
-          </div>
-  
-          <div class="col-lg-12 d-flex justify-content-end send-btn">
-            <button class="submit-btn primary-btn mt-20 text-uppercase ">donate<span class="lnr lnr-arrow-right"></span></button>
-          </div>
-  
-          <div class="alert-msg"></div>
+  <div id="dog-api">
+    <section class="hero is-primary">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">
+            Random Dogs
+          </h1>
+          <h2 class="subtitle">
+            Welcome to Random Dogs! Click go to see some random dogs!
+          </h2>
         </div>
-      </form>
-      <p class="payment-method">
-        We Accept :  <img src="./assets/images/payment.png" alt="">
-      </p>
+      </div>
+    </section>
+    <div class="button-section">
+      <button class="go-button button is-large is-success">Go!</button>
+    </div>
+    <div class="loading">
+      <progress class="progress is-large is-info" max="100">60%</progress>
+    </div>
+    <div class="random-dogs columns">
   </div>
-  </div>
-  </div>
-  </section>
+  
   <!-- End donate Area -->
 <div>
 
