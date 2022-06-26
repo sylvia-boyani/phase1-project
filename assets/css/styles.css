@@ -57,6 +57,16 @@
     background-color: #004eff;
 }
 
+#btn-hide{
+  padding: 20px;
+    border-radius: 20px;
+    color:whitesmoke;
+    font-weight: bold;
+    background-color: #004eff;  
+    float: left;
+  
+}
+
 #about{
     margin-left: 20px;
     padding: 100px;
