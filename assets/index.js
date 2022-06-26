@@ -8,4 +8,4 @@ async function getBibleApi(){
 }
 getBibleApi();
 
-json.AudioBible.forEach()
+json.AudioBible.forEach
