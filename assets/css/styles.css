@@ -1,5 +1,10 @@
-*{
-  text-align: center;
+all{
+  text-align: center; 
+  margin: 0;
+  padding: 0;
+  font-family: 'poppins', sans-serif;
+  box-sizing: border-box;
+  
 }
 
 .topnav {
@@ -130,10 +135,7 @@ input {
 
 #events {
     box-sizing: border-box;
-    margin-left: 20px;
-    background-color: #004eff;
-    
-  
+    margin-left: 20px;  
   }
   
   /* Float four columns side by side */
@@ -256,3 +258,71 @@ input {
     background-color: #555;
   }
 
+  .footer{ 
+    text-align: left; 
+    width: 100%;
+    background: black;
+    color: whitesmoke;
+    padding: 100px 0 30px;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 100px;
+  }
+.footer img{
+  border-radius: 50%;
+  width: 200px;
+  float: left;
+  margin-bottom: 20px;
+}
+ 
+.footer .row1{
+  width: 85%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.footer .col1{
+  flex-basis: 25%;
+  padding: 10px;
+}
+
+.footer .logo{
+ width: 80px;
+ margin-bottom: 30px; 
+}
+
+.col1 h3{
+  width: fit-content;
+  margin-bottom: 30px;
+  position: relative;
+}
+.footer ul li{
+  list-style: none;
+  margin-bottom: 12px;
+}
+
+.footer ul li a{
+  text-decoration: none;
+  color: #f1f1f1;
+}
+
+.footer form{
+  padding-bottom: 15px; 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 50px;
+  
+}
+
+/* .footer form input{
+  width: 100%;
+  background: transparent;
+  color: #ccc;
+  border:0;
+  outline: none;
+} */
